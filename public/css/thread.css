@@ -1,0 +1,120 @@
+
+.comment_nav{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.comments-area {
+ 
+    width: 100%;
+}
+
+
+main{
+    width: 100%;
+}
+
+.thread-container{
+    margin: 0;
+
+
+    padding: 10px 20px;
+    
+    border: 1px solid black;
+    
+    
+}
+.container{
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+    width: 100%;
+    padding: 10px 40px;
+
+    
+    margin-bottom: 5px;
+}
+
+.comment-container button{
+    margin-top: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.163);
+   
+    outline: none;
+    background-color: rgba(231, 231, 231, 0);
+    
+    cursor: pointer;
+}
+
+.thread-container button{
+    margin-top: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.163);
+   
+    outline: none;
+    background-color: rgba(231, 231, 231, 0);
+    
+    cursor: pointer;
+}
+
+
+
+
+.form-comment{
+    width: 400px;
+    padding: 1px;
+
+    
+    display: flex;
+}
+
+
+.comment_nav p{
+    margin-right: 5px;   
+}
+
+
+.thread-id{
+    margin-right: 0;
+}
+
+.comment-text{
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    
+}
+
+
+.anonimo{
+    color: rgb(189, 0, 85);
+    font-weight: bold;
+}
+
+.comment{
+    padding: 5px;
+    padding-left: 25px;
+    background-color: rgba(83, 205, 174, 0.431);
+    margin: 7px 0;
+    border: 1px solid rgba(0, 0, 0, 0.206);
+}
+
+
+.comment-text p{
+    margin: 0;
+}
+
+
+.thread-content{
+    display: flex;
+}
+
+.thread-img{
+    max-width: 50%;
+    max-height: 270px;
+}
+
+path{
+    size: 10px;
+    font-size: 10px;
+}

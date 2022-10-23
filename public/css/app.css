@@ -1,0 +1,106 @@
+
+
+body {
+    margin: 0;
+    background-image: url('https://img.freepik.com/free-photo/sunset-sky_74190-4493.jpg?w=996&t=st=1666534805~exp=1666535405~hmac=0d8667058738bbd9630a0fd927a104ff59956f03a87571cab741199918ac2638');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(239, 232, 176);
+    height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Arial';
+    font-size: 13px;
+}
+
+.create-post {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    
+    
+    outline: 0;
+}
+
+.form-comment{
+    background-color: rgba(250, 33, 33, 0.34);
+    width: 500px
+}
+
+
+textarea {
+    padding: 20px;
+    
+    border: none;
+    outline: 0;
+}
+
+select{
+    
+    border: none;
+    outline: 0;
+}
+a {
+    text-decoration: none;
+    
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li{
+    margin-right: 15px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.posting-form{
+    width: 500px;
+}
+
+.posting-form input[type=text]{
+    border: 1px solid rgb(27, 27, 27);
+    height: 25px;
+    width: 300px
+}
+
+.create-text-area {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-self: center;
+    width: 100%;
+    white-space: pre-wrap;
+}
+
+textarea {
+    resize: none;
+}
+
+.admin-pannel {
+    display: flex;
+    border: 1px solid black;
+}
+
+.boards-pannel {
+    width: 150px;
+}
+.posts-pannel {
+    width: 220px;
+}
